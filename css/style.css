@@ -1,0 +1,66 @@
+body{font-family: 'Lato', sans-serif;}
+
+.box {
+    background-color: brown;
+    width: 1000px;
+    border-radius: 25px;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutbox{
+    background-color: rgb(42, 106, 165);
+    width: 1000px;
+    border-radius: 25px;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+h2{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Handlee', cursive;
+    font-weight: 900;
+}
+p{
+    color: aliceblue;
+    font-size: 22px;
+}
+.nav{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+ 
+
+.social{
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social li{
+ 
+}
+.social li a{
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   text-decoration: none;
+   border: 1px solid;
+   padding: 10px;
+   border-radius: 10px;
+}
+.social li a:hover{
+    background-color: rgb(27, 77, 124);
+}
